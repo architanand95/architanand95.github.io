@@ -24,8 +24,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Funkley&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kalam');
+
 
 #dynamic-favicon
 {
@@ -122,7 +121,7 @@
 }
 
 .position {
-  font-family: 'Kalam',cursive;
+  font-family: 'monsserrar',cursive;
   font-size: 28px;
   color: rgb(21, 21, 21);
   text-align: left;
