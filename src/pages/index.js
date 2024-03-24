@@ -288,7 +288,7 @@ export default function Home() {
                 <div className={styles.iconLinks}>
                   <div className={styles.skillsDropdown}>
                     <img
-                      src="/skills2.png"
+                      src="/Skills2.png"
                       alt="Skills Icon"
                       className={styles.iconImage}
                       onClick={toggleSkillsDropdown}
