@@ -1,0 +1,45 @@
+.nav {
+  background-color: transparent;
+  padding: 16px;
+  position: relative;
+  transition: top 0.3s ease;
+
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navIcon {
+  width: 120px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.navButton {
+  padding: 8px 16px;
+  margin-right: 120px; /* Adjust the margin between buttons */
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Comic Sans MS', cursive;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #fff;
+  color: #000;
+}

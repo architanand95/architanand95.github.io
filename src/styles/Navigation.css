@@ -1,0 +1,16 @@
+.bg-beige-light {
+    background-color: #f2f2da; /* Light brownish white background color */
+  }
+  
+  .text-black {
+    color: #000; /* Black text color */
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fff; /* White text color on hover */
+  }
+  
