@@ -417,7 +417,7 @@ export default function Home() {
                   {/* LeetCode */}
                   <Link href="https://leetcode.com/arc_anand/" target="_blank">
                     <img
-                      src="/leetCode.webp"
+                      src="/leetcode.webp"
                       alt="LeetCode Icon"
                       className={styles.iconImage}
                     />
