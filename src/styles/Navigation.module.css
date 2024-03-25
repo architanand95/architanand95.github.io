@@ -34,7 +34,7 @@
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: cursive,Montserrat;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
