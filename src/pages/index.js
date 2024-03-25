@@ -542,7 +542,7 @@ export default function Home() {
                   </a>
                   {/* Instagram */}
                   <a
-                    href="https://www.github.com/architanand95/"
+                    href="https://github.com/architanand95/architanand95.github.io"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
