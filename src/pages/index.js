@@ -282,7 +282,7 @@ export default function Home() {
               </div>
               <div className={styles.aboutRight}>
                 <p className={styles.aboutText}>
-                  Hey guys,this is Archit. I am currently pursuing my  Bachelor’s in Computer Science and Engineering from Pes University,Bangalore. On the tech front I have worked on multiple projects on Deep Learning ,Data Analytics and modern tech in general.I would love for you to explore my creative side throught the &apos;SideQuest&apos;section as well.So basically i&apos;ve tried to summarize a portion of my personality through this website.<br/>
+                  Hey guys,this is Archit. I am currently pursuing my  Bachelor’s in Computer Science and Engineering from Pes University,Bangalore. On the tech front I have worked on multiple projects on Deep Learning ,Data Analytics and modern tech in general.I would love for you to explore my creative side throught the &apos;SideQuest&apos;section as well.I&apos;ve tried to summarize a portion of my personality through this website.<br/>
                   I hope you like it !
                 </p>
                 <div className={styles.iconLinks}>
@@ -521,7 +521,7 @@ export default function Home() {
             <div className={styles.contactContent}>
               <div className={styles.contactLeft}>
                 <p className={styles.contactText}>
-                  If u liked what u&apos;ve discovered so far and would like to get
+                  If you liked what you&apos;ve discovered so far and would like to get
                   in touch, feel free to connect by clicking on the icons listed
                   below. Also, if you liked the website , checkout it&apos;s code and
                   relevent tech stack by click on the github icon listed below.
