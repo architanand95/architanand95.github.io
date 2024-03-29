@@ -886,7 +886,8 @@
   margin-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)
+{
   .section{
     margin-left: 120vh;
   }
@@ -922,4 +923,5 @@
 .experienceText 
 {
   font-size:22px; 
+}
 }
