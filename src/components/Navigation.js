@@ -29,7 +29,7 @@ const Navigation = () => {
         <a onClick={() => handleNavigate('/')}>
           <img src="/favicon.ico" alt="Custom Icon" className={styles.navIcon} />
         </a>
-        <div className={style.navmudda}>
+        <div className="flex items-center">
           <button className={styles.navButton} onClick={() => handleNavigate('/about')}>
             <FaUser /> About
           </button> 
