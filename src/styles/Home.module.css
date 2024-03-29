@@ -894,39 +894,39 @@
   .downloadButton
   {
     margin-bottom: 160vh;
-    margin-left: 120vh;
+    margin-left: 160vh;
   }
     .customHeading {
-    font-size: 20vw;
+    font-size: 30vw;
     margin-left: 160vh;
-    margin-top: 160vh;
+    margin-top: 120vh;
   }
 
   .customParagraph {
     font-size: 6vw;
-    margin-left: 120vh;
+    margin-left: 160vh;
   }
   .subheading2
   {
     margin-top: 100px;
-    font-size:50px;
+    font-size: 28vw;
   }
   .subheading
   {
-    font-size:50px;
+    font-size: 28vw;
   }
   .subheading3
   {
-    font-size:42px; 
+    font-size:50px; 
   }
   .aboutText{
-  font-size: 40px;
+  font-size: 45px;
   margin-left: 10vh;
   margin-top: 10vh;
 }
 .experienceText 
 {
-  font-size:40px; 
+  font-size:45px; 
   margin-left: 10vh;
 }
   .position{
@@ -935,5 +935,10 @@
   .date
   {
     font-size:32px;
+  }
+.experienceImage
+  {
+    height:200px;
+    width:auto;
   }
 }
