@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 const Navigation = () => {
   const router = useRouter();
-  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+  const [isNavbarFixed, setIsNavbarFixed] = useState(true);
 
   const handleNavigate = (path) => {
     if (path === '/') {
