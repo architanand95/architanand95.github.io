@@ -50,6 +50,7 @@
   font-family:  Montserrat;
   opacity: 0;
   animation: fade-in 4s forwards;
+  margin-top: 25vh;
 }
 
 .customParagraph {
@@ -302,7 +303,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   height: 400px; /* Adjust the height as needed */
-  width: 400px; /* Adjust the width as needed */
+  width: 350px; /* Adjust the width as needed */
 }
 
 .projectCard:hover {
@@ -927,7 +928,6 @@
 .experienceText 
 {
   font-size:45px; 
-  margin-left: 10vh;
 }
   .position{
     font-size:45px
@@ -946,4 +946,7 @@
     height:200px;
     width:auto;
   }
+.skcontent{
+  font-size: 40px;
+}
 }
