@@ -24,7 +24,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`${styles.nav} ${isNavbarFixed ? styles.fixed : ''}`}>
+    <nav className={styles.fixed }>
       <div className={styles.navHeader}>
         <a onClick={() => handleNavigate('/')}>
           <img src="/favicon.ico" alt="Custom Icon" className={styles.navIcon} />
