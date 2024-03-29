@@ -1,6 +1,6 @@
 /* General Styles */
 .body {
-  font-family: 'Inter', cursive, sans-serif;
+  font-family: 'Inter', Montserrat;
   margin: 0;
   background-color: #ffff;
 }
@@ -50,7 +50,7 @@
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-family: cursive, Montserrat;
+  font-family:Montserrat;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
