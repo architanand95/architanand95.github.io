@@ -29,7 +29,7 @@
 
 .navButton {
   padding: 8px 16px;
-  margin-right: 120px; /* Adjust the margin between buttons */
+  margin-right: 100px; /* Adjust the margin between buttons */
   background-color: #000;
   color: #fff;
   border: none;
@@ -42,4 +42,44 @@
 .navButton:hover {
   background-color: #fff;
   color: #000;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navButton{
+    gap:100px;
+    margin-right: 1vh;
+    align-items: right;
+  }
+  .navButton:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .navIcon {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .navButton{
+    gap:100px;
+    margin-right: 5vh;
+    align-items: right;
+  }
+  .navButton:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .navIcon {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 50px;
+    border-radius: 50%;
+  }
+
 }
