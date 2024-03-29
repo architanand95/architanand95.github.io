@@ -914,27 +914,27 @@
   }
   .subheading
   {
-    font-size: 28vw;
+    font-size: 40vw;
   }
   .subheading3
   {
-    font-size:50px; 
+    font-size:55px; 
   }
   .aboutText{
-  font-size: 45px;
+  font-size: 55px;
   margin-left: 10vh;
   margin-top: 10vh;
 }
 .experienceText 
 {
-  font-size:45px; 
+  font-size:55px; 
 }
   .position{
-    font-size:45px
+    font-size:50px
   }
   .date
   {
-    font-size:32px;
+    font-size:40px;
   }
 .experienceImage
   {
@@ -948,5 +948,9 @@
   }
 .skcontent{
   font-size: 40px;
+}
+  .skillsDropdown {
+  height:auto;
+    width:600px;
 }
 }
