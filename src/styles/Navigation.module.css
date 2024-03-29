@@ -71,6 +71,7 @@
   .navButton:hover {
     background-color: #fff;
     color: #000;
+    margin-top:1vh;
   }
   .navIcon {
     width: 10rem;
