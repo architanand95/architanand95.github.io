@@ -889,11 +889,11 @@
 @media (max-width: 768px)
 {
   .section{
-    margin-left: 120vh;
+    margin-left: 150vh;
   }
   .downloadButton
   {
-    margin-bottom: 90vh;
+    margin-bottom: 160vh;
     margin-left: 120vh;
   }
     .customHeading {
@@ -909,19 +909,20 @@
   .subheading2
   {
     margin-top: 100px;
-    font-size:22px;
+    font-size:32px;
   }
   .subheading
   {
-    font-size:22px;
+    font-size:32px;
   }
   .aboutText{
-  font-size: 22px;
+  font-size: 32px;
   margin-left: 10vh;
   margin-top: 10vh;
 }
 .experienceText 
 {
-  font-size:22px; 
+  font-size:32px; 
+  margin-left: 10vh;
 }
 }
