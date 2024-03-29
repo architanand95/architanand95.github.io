@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    font-family: 'Funkley',cursive;
+    font-family: inherit;
+    margin-left: 160vh;
   }
   
