@@ -1,10 +1,26 @@
+/* General Styles */
+.body {
+  font-family: 'Inter', cursive, sans-serif;
+  margin: 0;
+  background-color: #ffff;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation Styles */
 .nav {
-  background-color: transparent;
+  background-color: #fff;
   padding: 16px;
   position: relative;
   transition: top 0.3s ease;
-
 }
+
 .fixed {
   position: fixed;
   top: 0;
@@ -17,24 +33,24 @@
 .navHeader {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .navIcon {
-  width: 120px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   margin-right: 20px;
   border-radius: 50%;
 }
 
 .navButton {
   padding: 8px 16px;
-  margin-right: 100px; /* Adjust the margin between buttons */
+  margin-right: 90px; /* Adjust the margin between buttons */
   background-color: #000;
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-family: cursive,Montserrat;
+  font-family: cursive, Montserrat;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -44,31 +60,12 @@
   color: #000;
 }
 
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .navButton{
     gap:100px;
     margin-right: 1vh;
-    align-items: right;
-  }
-  .navButton:hover {
-    background-color: #fff;
-    color: #000;
-  }
-  .navIcon {
-    width: 10rem;
-    height: 10rem;
-    margin-right: 10px;
-    border-radius: 50%;
-  }
-  
-}
-
-@media (max-width: 576px) {
-  .navButton{
-    gap:100px;
-    margin-right: 5vh;
+    font-size: 26px;
     align-items: right;
   }
   .navButton:hover {
@@ -80,6 +77,27 @@
     height: 10rem;
     margin-right: 50px;
     border-radius: 50%;
+  }   
+  
+}
+
+@media (max-width: 576px) {
+  .navButton{
+    gap:100px;
+    margin-right: 5vh;
+    align-items: right;
+    font-size: 26px;
   }
+  .navButton:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .navIcon {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 50px;
+    border-radius: 50%;
+  }
+  
 
 }
