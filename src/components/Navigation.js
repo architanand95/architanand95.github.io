@@ -1,11 +1,10 @@
 import { FaUser, FaBriefcase, FaProjectDiagram, FaLightbulb, FaEnvelope, FaHome, FaNetworkWired } from 'react-icons/fa';
 import styles from '../styles/Navigation.module.css';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const Navigation = () => {
   const router = useRouter();
-  const [isNavbarFixed, setIsNavbarFixed] = useState(true);
 
   const handleNavigate = (path) => {
     if (path === '/') {
@@ -23,22 +22,6 @@ const Navigation = () => {
       }
     }
   };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setIsNavbarFixed(true);
-      } else {
-        setIsNavbarFixed(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <nav className={`${styles.nav} ${isNavbarFixed ? styles.fixed : ''}`}>
