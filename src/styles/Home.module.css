@@ -888,21 +888,31 @@
 
 @media (max-width: 768px) {
   .section{
-    margin-left: 75vh;
+    margin-left: 120vh;
   }
   .downloadButton
   {
     margin-bottom: 90vh;
-    
+    margin-left: 120vh;
   }
     .customHeading {
     font-size: 20vw;
-    margin-left: 70vh;
+    margin-left: 120vh;
     margin-top: 60vh;
   }
 
   .customParagraph {
     font-size: 6vw;
-    margin-left: 70vh;
+    margin-left: 120vh;
   }
+  .subheading2
+  {
+    margin-top: 100px;
+    font size:22px
+  }
+  .subheading
+  {
+    font size:22px
+  }
+
 }
