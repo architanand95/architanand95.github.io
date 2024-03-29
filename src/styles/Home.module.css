@@ -898,7 +898,7 @@
     margin-left: 160vh;
   }
     .customHeading {
-    font-size: 30vw;
+    font-size: 40vw;
     margin-left: 160vh;
     margin-top: 120vh;
   }
@@ -921,20 +921,20 @@
     font-size:55px; 
   }
   .aboutText{
-  font-size: 55px;
+  font-size: 40px;
   margin-left: 10vh;
   margin-top: 10vh;
 }
 .experienceText 
 {
-  font-size:55px; 
+  font-size:40px; 
 }
   .position{
-    font-size:50px
+    font-size:40px
   }
   .date
   {
-    font-size:40px;
+    font-size:30px;
   }
 .experienceImage
   {
@@ -949,8 +949,5 @@
 .skcontent{
   font-size: 40px;
 }
-  .skillsDropdown {
-  height:auto;
-    width:600px;
-}
+
 }
