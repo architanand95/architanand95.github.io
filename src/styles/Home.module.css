@@ -136,7 +136,7 @@
 .experienceText 
 {
   font-family:Montserrat;
-  font-size: 20px;
+  font-size: 25px;
   color: #666;
   line-height: 1.6;
   text-align: left;
@@ -234,6 +234,7 @@
 .aboutText {
   font-family:  Montserrat;
   margin-top: 10px;
+  font-size: 25px;
 }
 
 @media (max-width: 768px) {
