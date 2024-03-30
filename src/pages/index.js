@@ -523,8 +523,8 @@ export default function Home() {
                 <p className={styles.contactText}>
                   If you liked what you&apos;ve discovered so far and would like to get
                   in touch, feel free to connect by clicking on the icons listed
-                  below. Also, if you liked the website , checkout it&apos;s code and
-                  relevent tech stack by click on the github icon listed below.
+                  below. Also, if you liked the website, check out it&apos;s code and
+                  relevant tech stack by clicking on the GitHub icon listed below.
                   Thanks for your time :)
                 </p>
                 <div className={styles.contactIcons}>
