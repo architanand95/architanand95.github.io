@@ -269,8 +269,8 @@ export default function Home() {
         </button>
         {/* About Section */}
         <section className={styles.section}>
-          <div className={styles.container} id="about">
-            <h1 className={styles.subHeading} >About Me</h1>
+          <div className={styles.container}>
+            <h1 className={styles.subHeading id="about"} >About Me</h1>
             <div className={styles.aboutContent} >
               <div className={styles.aboutLeft}>
                 {/* Placeholder image, replace with your own */}
