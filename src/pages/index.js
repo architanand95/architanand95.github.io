@@ -251,7 +251,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Arc&apos;s Den</title>
+        <title>ArcSpace</title>
         <link rel="icon" href="/fav.ico" id="dynamic-favicon" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
