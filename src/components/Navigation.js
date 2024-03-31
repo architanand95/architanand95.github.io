@@ -27,7 +27,7 @@ const Navigation = () => {
     <nav className={styles.fixed }>
       <div className={styles.navHeader}>
         <a onClick={() => handleNavigate('/')}>
-          <img src="/favicon.ico" alt="Custom Icon" className={styles.navIcon} />
+          <img src="/favicon.png" alt="Custom Icon" className={styles.navIcon} />
         </a>
         <div className="flex items-center">
           <button className={styles.navButton} onClick={() => handleNavigate('/about')}>
