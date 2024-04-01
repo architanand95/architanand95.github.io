@@ -268,9 +268,9 @@ export default function Home() {
           Download CV
         </button>
         {/* About Section */}
-        <section className={styles.section}>
+        <section className={styles.section} id="about">
           <div className={styles.container}>
-            <h1 className={styles.subHeading} id="about" >About Me</h1>
+            <h1 className={styles.subHeading}  >About Me</h1>
             <div className={styles.aboutContent} >
               <div className={styles.aboutLeft}>
                 {/* Placeholder image, replace with your own */}
