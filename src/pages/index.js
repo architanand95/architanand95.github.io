@@ -77,16 +77,16 @@ const projectsData = [
     description: "Narrative synthesis from image sequences ",
     image: "/pr_7.png",
     tags: ["Seq-to-Seq", "Transfer Learning", "Decoder Network"],
-    githubLink: "",
+    githubLink: "https://github.com/architanand95/Framescript",
   },
   {
     id: 8,
     title: "Project 8",
     description:
-      "Automated Preprocessing using Self-Supervised Learnig techniques",
-    image: "/pr8.jpg",
-    tags: ["Gen Ai", "Deep Learning"],
-    githubLink: "",
+      "Ai Flight simulation",
+    image: "/proj8.png",
+    tags: ["C#"],
+    githubLink: "https://github.com/architanand95/FlightSim",
   },
   {
     id: 9,
@@ -95,8 +95,27 @@ const projectsData = [
       "Migrating a monolithic e-commerce application to a microservices architecture",
     image: "/project9.jpg",
     tags: ["Docker", "Kubernetes", "Cloud Computing"],
-    githubLink: "",
+    githubLink: "https://github.com/architanand95/Monolithic_to_microservice",
   },
+  {
+    id: 10,
+    title: "Project 10",
+    description:
+      "Building projects around algorithms facilitating hands on learning",
+    image: "/pr10.png",
+    tags: [],
+    githubLink: "https://github.com/architanand95/AlgoZen",
+  },
+  {
+    id: 11,
+    title: "Project 11",
+    description:
+      "Automated Preprocessing using Self-Supervised Learnig techniques",
+    image: "/pr8.jpg",
+    tags: ["Gen Ai", "Deep Learning"],
+    githubLink: "",
+  }
+  
 ];
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -154,8 +173,10 @@ export default function Home() {
       "Peregrine: High-Altitude Stock Market Insights",
       "Converse",
       "Framescript",
-      "**Untitled**",
+      "FlightSim",
       "Ecom_to_MAC",
+      "AlgoZen",
+      "**Untitled**",
     ];
 
     return projects.map((project) => {
@@ -183,10 +204,16 @@ export default function Home() {
           buttonName = "Framescript ";
           break;
         case 8:
-          buttonName = "**Untitled**";
+          buttonName = "FlightSim";
           break;
         case 9:
           buttonName = "Ecom_to_MAC";
+          break;
+        case 10:
+          buttonName = "AlgoZen";
+          break;
+        case 11:
+          buttonName = "**Untitled**";
           break;
         default:
           buttonName = "";
@@ -240,8 +267,8 @@ export default function Home() {
     });
   };
 
-  const presentProjects = projectsData.slice(0, 6); // Show 6 projects
-  const ongoingProjects = projectsData.slice(6);
+  const presentProjects = projectsData.slice(0, 9); // Show 6 projects
+  const ongoingProjects = projectsData.slice(9);
 
   const handleDownloadCV = () => {
     const pdfPath = "/archit_cv.pdf";
@@ -606,7 +633,10 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
+      <div className={styles.horizontal}>
+        Archit Anand
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 }

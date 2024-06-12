@@ -951,5 +951,9 @@
 .skcontent{
   font-size: 40px;
 }
-
+.horizontal{
+  width: 100%;
+  background-color:#000;
+  color: #ffff;
+}
 }
