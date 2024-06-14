@@ -479,6 +479,28 @@ export default function Home() {
                 <div className={styles.experienceLeft}>
                   {/* Placeholder image, replace with your own */}
                   <img
+                    src="/pes.png"
+                    alt="Photo"
+                    className={styles.experienceImage}
+                  />
+                </div>
+                <div className={styles.experienceRight}>
+                  <h2 className={styles.subHeading3}>
+                    PESU Research Foundation
+                  </h2>
+                </div>
+              </div>
+              <h3 className={styles.position}>Summer Intern</h3>
+              <p className={styles.date}>June 2024 - August 2024</p>
+              <p className={styles.experienceText}>
+              My team and I worked on creating a methodology for automated waste segregation. We aimed to design an architecture that could accurately distinguish between glass and plastic bottles. The scope of the research included working with infrared thermal images of both classes and comparing their respective heat signatures for classification.
+              </p>
+            </div>
+            <div className={styles.experienceOverall}>
+              <div className={styles.experienceContent}>
+                <div className={styles.experienceLeft}>
+                  {/* Placeholder image, replace with your own */}
+                  <img
                     src="/starc.jpeg"
                     alt="Photo"
                     className={styles.experienceImage}
